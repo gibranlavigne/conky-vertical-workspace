@@ -1,6 +1,5 @@
 Conky Vertical Workspace
 ========================
-Conky Vertical Workspace, light-weight used to switch workspaces on your desktop.
 
 Installation
 ------------
