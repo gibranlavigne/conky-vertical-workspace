@@ -1,0 +1,45 @@
+# Copyright 2014 Gibran Lavigne (Gibran Badrulzaman)
+# All rights reserved
+# Conky Vertical Workspace
+
+alignment 						bottom_right
+gap_x 							20
+gap_y 							274
+
+background 						yes
+
+xftfont Droid Sans				:size=30
+xftalpha 						0.9
+
+own_window 						yes
+own_window_type 				override
+own_window_transparent 			yes
+own_window_hints 				undecorated,below,sticky,skip_taskbar,skip_pager
+
+draw_shades 					no
+draw_outline 					no
+draw_borders 					no
+draw_graph_borders 				yes
+
+border_margin 					5
+default_color 					555
+color1 							ffffff
+
+double_buffer 					yes
+uppercase 						no
+cpu_avg_samples 				2
+override_utf8_locale 			yes
+default_bar_size 				25,25
+
+update_interval 				1.0
+total_run_times 				0
+mpd_port 						6600
+imlib_cache_size 				0
+use_xft 						yes
+
+TEXT
+${if_match ${desktop}==1}${color1}${endif}○${color}${offset 10}
+${if_match ${desktop}==2}${color1}${endif}○${color}${offset 10}
+${if_match ${desktop}==3}${color1}${endif}○${color}${offset 10}
+${if_match ${desktop}==4}${color1}${endif}○${color}${offset 10}
+${if_match ${desktop}==5}${color1}${endif}○${color}${offset 10}
