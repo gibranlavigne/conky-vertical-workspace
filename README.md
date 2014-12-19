@@ -13,7 +13,7 @@ or install form ports
 ```
 ~] # cd /usr/ports/sysutils/conky && make install clean
 ```
-<br>
+
 Get Source
 ----------
 Fetch the conky configuration files from GitHub repository:
